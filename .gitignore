@@ -1,0 +1,12 @@
+# Local operating-system files
+.DS_Store
+Thumbs.db
+
+# Local credentials; sanitized examples can be committed
+.env
+.env.*
+!.env.example
+
+# Isolated checkouts
+.worktrees/
+worktrees/
